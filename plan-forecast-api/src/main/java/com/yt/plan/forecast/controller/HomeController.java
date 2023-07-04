@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/home")
 public class HomeController {
     @GetMapping("")
-    public String home() {
-        LogEnum.DUBBO_DATA_INFO.info("Hello World!");
+    public String home() {        
         return "Hello World!";
     }
 }
