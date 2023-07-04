@@ -76,7 +76,6 @@ public abstract class AbstratctRedisRetrySynchronizer<V> implements RedisRetrySy
         this.expire = expire;
         this.failKSet=new ConcurrentHashSet<>(redisCacheConstant.failMaxSize);
         this.redisCacheConstant=redisCacheConstant;
-
         init();
     }
 
