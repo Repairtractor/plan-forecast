@@ -12,6 +12,7 @@ public class HomeController {
     public String home() {    
         System.out.println("Hello World!,这是为了测试提交");
         System.out.println("hello world,这是为了测试idea提交");
+        System.out.println("hello world,这是为了测试vscode提交2");
         return "Hello World!";
     }
 }
