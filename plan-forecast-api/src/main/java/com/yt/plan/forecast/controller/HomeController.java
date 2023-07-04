@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("")
     public String home() {    
-        System.out.println("Hello World!,这是为了测试提交");    
+        System.out.println("Hello World!,这是为了测试提交");
+        System.out.println("hello world,这是为了测试idea提交");
         return "Hello World!";
     }
 }
