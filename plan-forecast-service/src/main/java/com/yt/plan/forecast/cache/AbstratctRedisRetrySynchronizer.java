@@ -67,6 +67,7 @@ public abstract class AbstratctRedisRetrySynchronizer<V> implements RedisRetrySy
             this.redisKey = keyPath + code;
             this.redisValue = JSONUtil.toJsonStr(value);
         }
+
     }
 
 
