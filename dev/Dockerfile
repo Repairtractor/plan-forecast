@@ -8,4 +8,4 @@ ADD plan-forecast-api-0.0.1-SNAPSHOT.jar app.jar
 MAINTAINER SaltIce
 
 ## vm 命令进行组装，其中-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5050为远程调试的参数
-ENTRYPOINT ["java","-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5050","-Dfile.encoding=utf-8","-Dspring.redis.host=172.20.181.169","-jar","/app.jar"]
+ENTRYPOINT ["java","-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5050","-Dfile.encoding=utf-8","-Dspring.redis.password=root","-jar","/app.jar"]
