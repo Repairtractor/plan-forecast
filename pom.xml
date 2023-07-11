@@ -41,14 +41,26 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+
     </dependencies>
 
     <dependencyManagement>
+
+
+
         <dependencies>
+
+            <dependency>
+                <groupId>com.plan.forecast</groupId>
+                <artifactId>plan-forecast-dubbo</artifactId>
+                <version>1.22.1-SNAPSHOT</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.yt.plan.forecast</groupId>
                 <artifactId>plan-forecast-api</artifactId>
@@ -66,6 +78,20 @@
                 <artifactId>plan-forecast-infrastructure</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.5.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
