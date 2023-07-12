@@ -1,6 +1,5 @@
 package com.yt.plan.forecast.xx;
 
-import com.plan.forecast.dubbo.TestDubboService;
 import org.apache.dubbo.config.annotation.DubboService;
 
 
