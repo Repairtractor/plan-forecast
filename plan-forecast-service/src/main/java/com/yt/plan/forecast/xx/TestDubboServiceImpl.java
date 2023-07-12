@@ -1,8 +1,11 @@
 package com.yt.plan.forecast.xx;
 
-import com.plan.forecast.dubbo.DubboService;
+import com.plan.forecast.dubbo.TestDubboService;
+import org.apache.dubbo.config.annotation.DubboService;
 
-public class DubboServiceImpl implements DubboService {
+
+@DubboService
+public class TestDubboServiceImpl implements TestDubboService {
 
     @Override
     public void test(String name) {
