@@ -1,6 +1,6 @@
 package com.plan.forecast.dubbo;
 
-public interface cc {
+public interface TestDubboService {
 
     void test(String name);
 }
